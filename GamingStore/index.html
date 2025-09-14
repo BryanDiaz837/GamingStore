@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GamingStoreInicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body class="bg-dark">
+
+  <!---Esta es la Navbar :D-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+    <a class="navbar-brand" link href="index.html">
+    <img src="img/IconStore.png" width="100" height="70" class="d-inline-block">
+    </a>
+  <div class="container-fluid">
+
+    <a class="navbar-brand" link href="index.html">GamingStore</a>
+  
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar" aria-controls="menuNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menuNavbar">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" link href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" link href="">Juegos</a>
+        </li>
+        <!--Este es el dropdown, menú desplegable-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="menuDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Más
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="menuDropdown">
+            <li><a class="dropdown-item" href="#">Acerca De</a></li>
+            <li><a class="dropdown-item" href="#">Contacto</a></li>
+            <li><a class="dropdown-item" href="#">Tiendas Físicas</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+        <button class="btn btn-dark" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<h1 class="text-white text-center fs-3">Juegos más vendidos📼🎮</h1>
+
+<!--Carrusel-->
+<div id="carouselExampleDark" class="carousel carousel-dark slide mb-4" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="5000">
+      <img src="https://media.es.wired.com/photos/6880fadda69582ec829f6bca/master/w_1920,c_limit/ea-sports-fc-26-Cover.jpg" width="200" height="400" class="d-block w-100" >
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="https://imgs.hipertextual.com/wp-content/uploads/2025/08/CoD-Black-Ops-7.jpg" width="200" height="400" class="d-block w-100">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.amd.com/content/dam/amd/en/images/games/red-dead-redemption-2/348038-red-dead-redemption-keyart.jpg"  width="200" height="400" class="d-block w-100">
+      <div class="carousel-caption d-none d-md-block">
+        
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<h1 class="text-white fs-4 ms-3">Juegos Recomendados Para Ti🎮🔥</h1>
+
+<div class="d-flex gap-4 flex-wrap ms-3">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://image.api.playstation.com/vulcan/ap/rnd/202507/1617/2e757ffb0a6bb4b91af84db64e0183d725e56e5354f45eba.png?w=440&thumb=false" alt="FC26">
+    <div class="card-body">
+      <h5 class="card-title">FC26</h5>
+      <p class="card-text">EA SPORTS FC™ 26 Edición Estándar para PS4 y PS5.</p>
+      <a href="#" class="btn btn-primary">US$69.99</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/Hpl5MtwQgOVF9vJqlfui6SDB5Jl4oBSq.png?w=230&thumb=false" alt="Red Dead Redemption 2">
+    <div class="card-body">
+      <h5 class="card-title">Red Dead Redemption 2</h5>
+      <p class="card-text">Red Dead Redemption 2 Edición para PS4,PS5 y PC.</p>
+      <a href="#" class="btn btn-primary">US$59.99</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://image.api.playstation.com/vulcan/ap/rnd/202508/2119/0d573ddff80c5ff89bd63651313b74147e110fb62936e452.png?w" alt="Call Of Duty">
+    <div class="card-body">
+      <h5 class="card-title">Call of Duty®: Black Ops 7</h5>
+      <p class="card-text">Call of Duty®: Black Ops 7 - Paquete Multigeneración.</p>
+      <a href="#" class="btn btn-primary">US$59.99</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://image.api.playstation.com/vulcan/ap/rnd/202407/0401/670c294ded3baf4fa11068db2ec6758c63f7daeb266a35a1.png?w=230" alt="Minecraft">
+    <div class="card-body">
+      <h5 class="card-title">Minecraft</h5>
+      <p class="card-text">Minecraft Edición para PS5 y PC.</p>
+      <a href="#" class="btn btn-primary">US$59.99</a>
+    </div>
+  </div>
+
+</div>
+
+
+</body>
+</html>
