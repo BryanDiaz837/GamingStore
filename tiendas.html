@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GamingStoreInicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body class="bg-dark">
+
+  <!---Esta es la Navbar :D-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+    <a class="navbar-brand" link href="index.html">
+    <img src="img/IconStore.png" width="100" height="70" class="d-inline-block">
+    </a>
+  <div class="container-fluid">
+
+    <a class="navbar-brand" link href="index.html">GamingStore</a>
+ 
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar" aria-controls="menuNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menuNavbar">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" link href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" link href="">Juegos</a>
+        </li>
+        <!--Este es el dropdown, menú desplegable-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="menuDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Más
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="menuDropdown">
+            <li><a class="dropdown-item" href="#">Acerca De</a></li>
+            <li><a class="dropdown-item" href="#">Contacto</a></li>
+            <li><a class="dropdown-item" href="#">Tiendas Físicas</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+        <button class="btn btn-dark" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<h1 class="text-white text-center fs-3">Juegos más vendidos📼🎮</h1>
+
+<!--Carrusel-->
+<div id="carouselExampleDark" class="carousel carousel-dark slide mb-4" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="5000">
+      <img src="https://media.es.wired.com/photos/6880fadda69582ec829f6bca/master/w_1920,c_limit/ea-sports-fc-26-Cover.jpg" width="200" height="400" class="d-block w-100" >
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="https://imgs.hipertextual.com/wp-content/uploads/2025/08/CoD-Black-Ops-7.jpg" width="200" height="400" class="d-block w-100">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.amd.com/content/dam/amd/en/images/games/red-dead-redemption-2/348038-red-dead-redemption-keyart.jpg"  width="200" height="400" class="d-block w-100">
+      <div class="carousel-caption d-none d-md-block">
+       
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<h1 class="text-white fs-4 ms-3" style="text-align: center;">Nuestras Tiendas</h1>
+
+<div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; max-width: 1200px; padding: 2rem;">
+  <div class="card" style="width: 22rem;">
+    <img src="https://tse2.mm.bing.net/th/id/OIP.42pkdF4dI1MG86WbiWCpywAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="FC26" style="height: 200px; object-fit: cover; width: 100%;">
+    <div class="card-body">
+      <h5 class="card-title">METROCENTRO, SAN SALVADOR</h5>
+      <p class="card-text">5ta etapa, a 30m de entrada.</p>
+      <a href="#" class="btn btn-primary">Contactar</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 22rem;">
+    <img src="https://toystoreguide.com/wp-content/uploads/2024/05/Toy-Buzz-Fizz-wide-shot-toy-store-guide.jpg" alt="Red Dead Redemption 2" style="height: 200px; object-fit: cover; width: 100%;">
+    <div class="card-body">
+      <h5 class="card-title">LA GRAN VÍA</h5>
+      <p class="card-text">Frente a entrada.</p>
+      <a href="#" class="btn btn-primary">Contactar</a>
+    </div>
+  </div>
+
+  <div style="width: 100%; height: 2rem;"></div> <!-- Espacio entre divs -->
+
+  <div class="card" style="width: 22rem;">
+    <img src="https://cdn.businessyab.com/assets/uploads/1827b8c82b16c980e4717203a42ae4e7_-united-states-nevada-clark-county-las-vegas-south-nellis-boulevard-3310-wii-play-games-east-702-485-6100.jpg" alt="Call Of Duty" style="height: 200px; object-fit: cover; width: 100%;">
+    <div class="card-body">
+      <h5 class="card-title">MULTIPLAZA</h5>
+      <p class="card-text">8va etapa, a 30m de Cines.</p>
+      <a href="#" class="btn btn-primary">Contactar</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 22rem;">
+    <img src="https://th.bing.com/th/id/R.690f24de6736fdae1b2f962b90680d94?rik=xNHwmgDi6EKg7g&riu=http%3a%2f%2fgamingbolt.com%2fwp-content%2fuploads%2f2010%2f11%2fGTS-1.jpg&ehk=%2f8CWnYOKyxQdW9WfVaNoBl4emw7PRHwZiF4Rv%2baePzU%3d&risl=&pid=ImgRaw&r=0" alt="Gran Turismo" style="height: 200px; object-fit: cover; width: 100%;">
+    <div class="card-body">
+      <h5 class="card-title">PLAZA MUNDO</h5>
+      <p class="card-text">Sucursal frente a foodcore.</p>
+      <a href="#" class="btn btn-primary">Contactar</a>
+    </div>
+  </div>
+</div>
+
+<h1 class="text-white fs-4 ms-3" style="text-align: center;">Visitanos!, te esperamos con los brazos abiertos.</h1>
+
+</body>
+</html>
