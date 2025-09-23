@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GamingStoreInicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body class="bg-dark" >
+
+  <!---Esta es la Navbar :D-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+    <a class="navbar-brand" link href="index.html">
+    <img src="img/IconStore.png" width="100" height="70" class="d-inline-block">
+    </a>
+  <div class="container-fluid">
+
+    <a class="navbar-brand" link href="index.html">GamingStore</a>
+  
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar" aria-controls="menuNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menuNavbar">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" link href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" link href="">Juegos</a>
+        </li>
+        <!--Este es el dropdown, menú desplegable-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="menuDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Más
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="menuDropdown">
+            <li><a class="dropdown-item" href="#">Acerca De</a></li>
+            <li><a class="dropdown-item" href="#">Contacto</a></li>
+            <li><a class="dropdown-item" href="#">Tiendas Físicas</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+        <button class="btn btn-dark" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<h1 class="text-white text-center fs-3">Los mejores audifonos</h1>
+
+<!--Carrusel-->
+<div id="carouselExampleDark" class="carousel carousel-dark slide mb-4" data-bs-ride="carousel ">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="5000">
+      <img src="https://www.funkykit.com/wp-content/uploads/2024/04/Corsair_HS35_v2_Gaming_Headsets.jpg" width="200" height="400" class="d-block w-100" >
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2021/01/asus-tuf-gaming-h3-2200755.jpg?tf=3840x" width="200" height="400" class="d-block w-100">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdna.artstation.com/p/assets/covers/images/069/475/906/large/bharath-ram-bharath-ram-headset-04.jpg?1700224321"  width="200" height="400" class="d-block w-100">
+      <div class="carousel-caption d-none d-md-block">
+        
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+<h1 class="text-white text-center fs-3">Audífonos🎧🤩</h1>
+<br>
+
+</div>
+
+<h1 class="text-white fs-4 ms-3">Los mejores audífonos solo para ti🎧🤩</h1>
+<br>
+
+<div class="d-flex gap-4 flex-wrap ms-3">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://tecnogame.ec/wp-content/uploads/2020/10/Audifono-Gamer-Para-PC-Con-Microfono-Genius-1-1.png" alt="FC26">
+    <div class="card-body">
+      <h5 class="card-title">Audifonos negros</h5>
+      <p class="card-text">Audífonos con microfono Gamers</p>
+      <a href="#" class="btn btn-primary">US$27.99</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://www.megatone.net/images/Articulos/zoom2x/1/MKT0423SON-1.jpg" alt="Red Dead Redemption 2">
+    <div class="card-body">
+      <h5 class="card-title">Audifonos Inalambricos</h5>
+      <p class="card-text">Audífono Inalámbrico Sony WH CH720N Over Ear Negro.</p>
+      <a href="#" class="btn btn-primary">US$109.99</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://www.nexxcom.lk/wp-content/uploads/2023/04/MEETION-HP020-BACKLIT-GAMING-STEREO-HEADSET1-min-600x600.png" alt="Audifono">
+    <div class="card-body">
+      <h5 class="card-title">Auriculares Gamer Para Pc 3</h5>
+      <p class="card-text">Auriculares Gamer Para Pc 3 5Mm Usb Scorpin</p>
+      <a href="#" class="btn btn-primary">US$59.99</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://cdns3.thecosmicbyte.com/wp-content/uploads/Kotion_GS410_1.jpg" alt="Minecraft">
+    <div class="card-body">
+      <h5 class="card-title">Audiculares</h5>
+      <p class="card-text">Audifono Gamer Azules Cuenta con un micrófono retráctil y con una calidad de sonido muy bueno </p>
+      <a href="#" class="btn btn-primary">US$97.99</a>
+    </div>
+  </div>
+   <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://prophonechile.cl/wp-content/uploads/2023/03/blackrosado.png" alt="Audifono">
+    <div class="card-body">
+      <h5 class="card-title">audifonos rosas</h5>
+      <p class="card-text">Se pueden utilizar sin cables y ofrecen una gran calidad de sonido</p>
+      <a href="#" class="btn btn-primary">US$75</a>
+    </div>
+  </div>
+   <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://c8n.tradeling.com/img/plain/pim/rs:auto:600::0/f:webp/up/619603ecbb8655001bb6d489/45a7441999636483a167028bf96738c4.png" alt="Audifono">
+    <div class="card-body">
+      <h5 class="card-title">Audifonos de buena calidad rosas</h5>
+      <p class="card-text">Ofrecen una gran calidad de audio y su autonomía es de hasta 70 horas de uso.</p>
+      <a href="#" class="btn btn-primary">US$52.75</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://http2.mlstatic.com/D_NQ_NP_626877-MLC48732160558_012022-O.jpg" alt="Audifono">
+    <div class="card-body">
+      <h5 class="card-title">MAudifonos blacos</h5>
+      <p class="card-text">Audifonos de la mejor calidad con un gran sonido y con microfono </p>
+      <a href="#" class="btn btn-primary">US$59.99</a>
+    </div>
+  </div>
+
+
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://www.multicopy.com.gt/web/image/product.template/24064/image_1024?unique=1018081" alt="Audifono">
+    <div class="card-body">
+      <h5 class="card-title"> Audifonos morados con orejas</h5>
+      <p class="card-text">Ofrecen un sonido espacial con tecnología de audio 3D Waves Nx</p>
+      <a href="#" class="btn btn-primary">US$59.99</a>
+    </div>
+
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://www.m4g.com.my/image/m4g/image/cache/data/all_product_images/product-4845/IBDvzxkJ1695873506-420x420.jpg" alt="Audifono">
+    <div class="card-body">
+      <h5 class="card-title">Audifonos amarillos</h5>
+      <p class="card-text">Cuenta con micrófono con certificación de Discord y TeamSpeak </p>
+      <a href="#" class="btn btn-primary">US$69.99</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://i5-mx.walmartimages.com/mg/gm/3pp/asr/00a0bb5f-c244-4c51-9665-f1eaa0edd92c.4136747d7ab24463c8ad754354ebb2e8.jpeg?odnHeight=2000&odnWidth=2000&odnBg=ffffff" alt="Audifono">
+    <div class="card-body">
+      <h5 class="card-title">AUdiculares rojos con negro</h5>
+      <p class="card-text">Integran un micrófono y son compatibles con PlayStation, Xbox y PC</p>
+      <a href="#" class="btn btn-primary">US$114.99</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://http2.mlstatic.com/D_NQ_NP_973649-CBT69306547343_052023-O.webp" alt="Audifono">
+    <div class="card-body">
+      <h5 class="card-title">Audifonos con orejas de gatos</h5>
+      <p class="card-text">Audifonos lindos inalambricos y sin microfono</p>
+      <a href="#" class="btn btn-primary">US$97.99</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://i5.walmartimages.com/asr/f9af9435-6c6c-4cf9-88c7-5bdc1728b14d.a26c8d8204e16a54479be66a7a88aeb7.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF" alt="Audifono">
+    <div class="card-body">
+      <h5 class="card-title">Audifonos rosas</h5>
+      <p class="card-text">Audifonos inalambicos color rosa con blanco para PC</p>
+      <a href="#" class="btn btn-primary">US$39.99</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://target.scene7.com/is/image/Target/GUEST_4ef66fa7-f17c-4c22-9e63-4c264d242218?wid=488&hei=488&fmt=pjpeg" alt="Audifono">
+    <div class="card-body">
+      <h5 class="card-title">Adifonos con microfno</h5>
+      <p class="card-text">Audifonos rosas con cable y transductores de 50 mm </p>
+      <a href="#" class="btn btn-primary">US$49.99</a>
+    </div>
+  </div>
+
+   <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://http2.mlstatic.com/D_Q_NP_2X_769702-CBT88305976942_072025-E-audifonos-para-ninos-hyperx-cloud-mini-lavanda.webp" alt="Audifono">
+    <div class="card-body">
+      <h5 class="card-title">Audifonos con alambre</h5>
+      <p class="card-text">Audifonos coor lila con microfono y cancelación de ruido</p>
+      <a href="#" class="btn btn-primary">US$29.99</a>
+    </div>
+
+  </div>
+   <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://mlab.cl/wp-content/uploads/2019/11/8209.jpg" alt="Audifono">
+    <div class="card-body">
+      <h5 class="card-title">Audifonos negros con rojo</h5>
+      <p class="card-text">Audifonos rojo y negro sin cable y transductores de 50 mm </p>
+      <a href="#" class="btn btn-primary">US$51.99</a>
+    </div>
+  </div>
+
+   <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://bpc.h-cdn.co/assets/17/39/480x480/gallery-1506352907-beats-studio3-headphones.jpg" alt="Audifono">
+    <div class="card-body">
+      <h5 class="card-title">Adifonos con microfno</h5>
+      <p class="card-text">Audífonos inalambricos color negro con dorado de buena calidad</p>
+      <a href="#" class="btn btn-primary">US$40.50</a>
+    </div>
+  </div>
+  
+    </div>
+  </div>
+
+</div>
+
+
+</body>
+
+</html>
