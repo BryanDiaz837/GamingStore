@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GamingStoreInicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body class="bg-dark" >
+
+  <!---Esta es la Navbar :D-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+    <a class="navbar-brand" link href="index.html">
+    <img src="img/IconStore.png" width="100" height="70" class="d-inline-block">
+    </a>
+  <div class="container-fluid">
+
+    <a class="navbar-brand" link href="index.html">GamingStore</a>
+  
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar" aria-controls="menuNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menuNavbar">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" link href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" link href="">Juegos</a>
+        <a class="nav-link active" aria-current="page" link href="audifonos.html">Audifonos</a> 
+       <a class="nav-link active" aria-current="page" link href="computadoras.html">Computadoras</a> 
+      </li>
+
+        <!--Este es el dropdown, menú desplegable-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="menuDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Más
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="menuDropdown">
+            <li><a class="dropdown-item" href="#">Acerca De</a></li>
+            <li><a class="dropdown-item" href="#">Contacto</a></li>
+            <li><a class="dropdown-item" href="#">Tiendas Físicas</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+        <button class="btn btn-dark" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<h1 class="text-white text-center fs-3">Los mejores computadoras</h1>
+
+<!--Carrusel-->
+<div id="carouselExampleDark" class="carousel carousel-dark slide mb-4" data-bs-ride="carousel ">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="5000">
+      <img src="https://click.gt/cdn/shop/collections/Banner_Laptops.jpg?v=1725587306" width="200" height="400" class="d-block w-100" >
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="https://img.freepik.com/fotos-premium/computadora-portatil-telefono-movil-tableta-digital-estante-pared-rojo-fondo-bandera-ilustracion-3d_118047-9963.jpg" width="200" height="400" class="d-block w-100">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://img.freepik.com/fotos-premium/computadora-portatil-moderna-fondo-rojo-vibrante-pantalla-blanco-copiar-espacio-vista-superior-perspectiva_163305-306652.jpg"  width="200" height="400" class="d-block w-100">
+      <div class="carousel-caption d-none d-md-block">
+        
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+<h1 class="text-white text-center fs-3">Computadoras 💻 </h1>
+<br>
+
+</div>
+
+<h1 class="text-white fs-4 ms-3">Las mejores computadoras ahora a tu alcance </h1>
+<br>
+
+<div class="d-flex gap-4 flex-wrap ms-3">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/esupport/esupport-pages/desktop-connected-to-monitor.png" alt="FC26">
+    <div class="card-body">
+      <h5 class="card-title">Computadora Dell</h5>
+      <p class="card-text">Computadora Dell Nueva Generación 2025, Adaptable, segura y sin virus. </p>
+      <a href="#" class="btn btn-primary">US$267.99</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://buketomnisportpweb.s3.us-east-2.amazonaws.com/products-images/cwrTmSHXEv3EzXyAU6pjuPE4YUbDpQpSeSXu9SuJ.png" alt="Red Dead Redemption 2">
+    <div class="card-body">
+      <h5 class="card-title">Laptop E1504GA-NJ058W | Core™ i3</h5>
+      <p class="card-text">Diseño ligero y compacto,  para que seas productivo y te mantengas entretenido donde quiera que vayas.</p>
+      <a href="#" class="btn btn-primary">US$199.99</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://buketomnisportpweb.s3.us-east-2.amazonaws.com/products-images/Or4aBYdpzlT3t43vE9heSktXZehO5L6qDLebuVxa.jpeg" alt="Audifono">
+    <div class="card-body">
+      <h5 class="card-title">Laptop FA507NU-LP136W GAMING | Ryzen™ 7</h5>
+      <p class="card-text">Desata tu potencial de juego con la Laptop FA507NU-LP136W, diseñada para los gamers más exigentes.</p>
+      <a href="#" class="btn btn-primary">US$589.99</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://api.zonadigitalsv.com/storage/products/imagen_generada688cdc326fcee.jpg" alt="Minecraft">
+    <div class="card-body">
+      <h5 class="card-title">Laptop macbook air</h5>
+      <p class="card-text">ram 16gb almacenamiento 256gb pantalla retina 15.3p wifi 6e+bt a3241 silver</p>
+      <a href="#" class="btn btn-primary">US$997.99</a>
+    </div>
+  </div>
+   <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://apizd.zonadigitalsv.com/storage/productos/lx7X4xglmIeX3mNv8F49wfmIzuOGpu74hQeZdEO6.png" alt="Audifono">
+    <div class="card-body">
+      <h5 class="card-title">Laptop dell inspiron</h5>
+      <p class="card-text">Ultraliviana, con pantalla táctil y batería que dura más de 15 horas.</p>
+      <a href="#" class="btn btn-primary">US$975</a>
+    </div>
+  </div>
+   <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://api.zonadigitalsv.com/storage/products/imagen_generada6877df3e7cdba.jpg" alt="Audifono">
+    <div class="card-body">
+      <h5 class="card-title">Laptop hp 15-fc0043la</h5>
+      <p class="card-text">Potente para gaming, con tarjeta gráfica dedicada y sistema de refrigeración avanzado.</p>
+      <a href="#" class="btn btn-primary">US$952.75</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://api.zonadigitalsv.com/storage/products/imagen_generada66551a4eb136e.jpg" alt="Audifono">
+    <div class="card-body">
+      <h5 class="card-title">Laptop acer aspire</h5>
+      <p class="card-text">Convertible 2 en 1, ideal para tomar notas a mano o dibujar con stylus.</p>
+      <a href="#" class="btn btn-primary">US$559.99</a>
+    </div>
+  </div>
+
+
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://apizd.zonadigitalsv.com/storage/productos/qpmww1CjxOM4CccFgDSHvFkqm5aE3kjTH26ICbuT.png" alt="Audifono">
+    <div class="card-body">
+      <h5 class="card-title"> Laptop lenovo </h5>
+      <p class="card-text"> Compacta y silenciosa, perfecta para bibliotecas o espacios compartidos.</p>
+      <a href="#" class="btn btn-primary">US$859.99</a>
+    </div>
+
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://api.zonadigitalsv.com/storage/products/imagen_generada687fa515c747a.jpg" alt="Audifono">
+    <div class="card-body">
+      <h5 class="card-title">Laptop asus</h5>
+      <p class="card-text">Procesador de última generación, optimizada para multitarea intensiva. </p>
+      <a href="#" class="btn btn-primary">US$969.99</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKECt-PuTfOVM--Ol0PyEpBRYKald18lGwaA&s" alt="Audifono">
+    <div class="card-body">
+      <h5 class="card-title">Computadora laptop lenovo ideapad gaming 3</h5>
+      <p class="card-text">Webcam con obturador físico para mayor privacidad.</p>
+      <a href="#" class="btn btn-primary">US$114.99</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://m.media-amazon.com/images/I/61mwCPrHrnL._AC_SL1500_.jpg" alt="Audifono">
+    <div class="card-body">
+      <h5 class="card-title">Computadora portátil para juegos, pantalla táctil de 8 pulgadas</h5>
+      <p class="card-text">Refrigeración pasiva, completamente silenciosa.</p>
+      <a href="#" class="btn btn-primary">US$997.99</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://m.media-amazon.com/images/I/71R7wbFw2TL._AC_SL1500_.jpg" alt="Audifono">
+    <div class="card-body">
+      <h5 class="card-title">Mini computadora portátil N95</h5>
+      <p class="card-text">Conectividad Wi-Fi 6 y Bluetooth 5.3 para máxima velocidad.</p>
+      <a href="#" class="btn btn-primary">US$939.99</a>
+    </div>
+  </div>
+
+</div>
+
+
+</body>
+
+</html>
