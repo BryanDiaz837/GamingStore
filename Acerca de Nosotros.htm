@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Acerca de Nosotros</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-dark text-light">
+ <!---Esta es la Navbar :D-->
+ <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+    <a class="navbar-brand" link href="index.html">
+    <img src="img/IconStore.png" width="100" height="70" class="d-inline-block">
+    </a>
+  <div class="container-fluid">
+
+    <a class="navbar-brand" link href="index.html">GamingStore</a>
+  
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar" aria-controls="menuNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menuNavbar">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" link href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" link href="">Juegos</a>
+        </li>
+        <!--Este es el dropdown, menú desplegable-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="menuDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Más
+           </a>
+          <ul class="dropdown-menu" aria-labelledby="menuDropdown">
+            <li><a class="dropdown-item" href="#">Acerca De</a></li>
+            <li><a class="dropdown-item" href="#">Contacto</a></li>
+            <li><a class="dropdown-item" href="#">Tiendas Físicas</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+        <button class="btn btn-dark" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+  <!-- Hero Section -->
+  <section class="text-center py-5" style="background-image: url('https://img.freepik.com/premium-photo/gamer-playing-desktop-pc-computer-gaming-illustration-commercial-photography_950002-31644.jpg'); background-size: cover; background-position: center;">
+    <div class="container py-5 bg-dark bg-opacity-75 rounded">
+      <h1 class="display-4 fw-bold text-white">Acerca de Nosotros</h1>
+      <p class="lead text-white">Diversión, innovación y comunidad gamer en cada clic.</p>
+    </div>
+  </section>
+
+  <!-- Sección ¿Quiénes somos? -->
+  <div class="container my-5">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4 mb-md-0">
+        <img src="https://www.jugandoando.com.ar/wp-content/uploads/que-caracteriza-a-los-gamers.webp" class="img-fluid rounded shadow" alt="Imagen equipo">
+      </div>
+      <div class="col-md-6">
+        <h2>¿Quiénes somos?</h2>
+        <p>Somos una plataforma digital dedicada a la venta y distribución de videojuegos, pensada para gamers que buscan vivir nuevas experiencias. Nuestro objetivo es ofrecerte un catálogo variado, con los últimos lanzamientos, clásicos inolvidables y promociones exclusivas.</p>
+        <p>Creemos que cada juego es una oportunidad para explorar mundos, superar retos y conectar con otros jugadores.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sección Nuestros Valores -->
+  <div class="container mb-5">
+    <h3 class="text-center mb-4">Nuestros Valores</h3>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card text-center bg-dark text-light border border-primary shadow h-100">
+          <div class="card-body">
+            <h5 class="card-title text-primary">🎮 Pasión por los videojuegos</h5>
+            <p class="card-text">Amamos lo que hacemos y queremos compartir esa emoción contigo.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center bg-dark text-light border border-success shadow h-100">
+          <div class="card-body">
+            <h5 class="card-title text-success">🚀 Innovación</h5>
+            <p class="card-text">Siempre buscamos mejorar la experiencia de compra y juego.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center bg-dark text-light border border-danger shadow h-100">
+          <div class="card-body">
+            <h5 class="card-title text-danger">🌍 Comunidad</h5>
+            <p class="card-text">Creemos en el poder de los videojuegos para unir personas en todo el mundo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-secondary text-center text-light py-3">
+    <div class="container">
+      <p>&copy; 2025 Nuestra Empresa. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
