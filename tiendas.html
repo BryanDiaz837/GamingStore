@@ -8,7 +8,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
 <body class="bg-dark">
-
   <!---Esta es la Navbar :D-->
   <nav class="navbar navbar-expand-lg navbar-light bg-danger">
     <a class="navbar-brand" link href="index.html">
@@ -17,18 +16,24 @@
   <div class="container-fluid">
 
     <a class="navbar-brand" link href="index.html">GamingStore</a>
- 
+  
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar" aria-controls="menuNavbar" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="menuNavbar">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
+         <li class="nav-item">
           <a class="nav-link active" aria-current="page" link href="index.html">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" link href="">Juegos</a>
+          <a class="nav-link active" aria-current="page" link href="Gaming.html">Juegos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" link href="computadoras.html">Computadoras</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" link href="Audífonos.html">Audifonos</a>
         </li>
         <!--Este es el dropdown, menú desplegable-->
         <li class="nav-item dropdown">
@@ -36,9 +41,8 @@
             Más
           </a>
           <ul class="dropdown-menu" aria-labelledby="menuDropdown">
-            <li><a class="dropdown-item" href="#">Acerca De</a></li>
-            <li><a class="dropdown-item" href="#">Contacto</a></li>
-            <li><a class="dropdown-item" href="#">Tiendas Físicas</a></li>
+            <li><a class="dropdown-item" link href="" >Acerca De</a></li>
+            <li><a class="dropdown-item" link href="tiendas.html">Tiendas Físicas</a></li>
           </ul>
         </li>
       </ul>
@@ -50,42 +54,8 @@
     </div>
   </div>
 </nav>
-<h1 class="text-white text-center fs-3">Juegos más vendidos📼🎮</h1>
 
-<!--Carrusel-->
-<div id="carouselExampleDark" class="carousel carousel-dark slide mb-4" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="5000">
-      <img src="https://media.es.wired.com/photos/6880fadda69582ec829f6bca/master/w_1920,c_limit/ea-sports-fc-26-Cover.jpg" width="200" height="400" class="d-block w-100" >
-      <div class="carousel-caption d-none d-md-block">
-      </div>
-    </div>
-    <div class="carousel-item" data-bs-interval="2000">
-      <img src="https://imgs.hipertextual.com/wp-content/uploads/2025/08/CoD-Black-Ops-7.jpg" width="200" height="400" class="d-block w-100">
-      <div class="carousel-caption d-none d-md-block">
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="https://www.amd.com/content/dam/amd/en/images/games/red-dead-redemption-2/348038-red-dead-redemption-keyart.jpg"  width="200" height="400" class="d-block w-100">
-      <div class="carousel-caption d-none d-md-block">
-       
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+
 
 <h1 class="text-white fs-4 ms-3" style="text-align: center;">Nuestras Tiendas</h1>
 
@@ -131,5 +101,32 @@
 
 <h1 class="text-white fs-4 ms-3" style="text-align: center;">Visitanos!, te esperamos con los brazos abiertos.</h1>
 
+<!-- Footer -->
+<footer class="bg-dark text-white pt-4">
+  <div class="container text-center text-md-start">
+    <div class="row">
+
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h6 class="text-uppercase fw-bold">Redes</h6>
+        <hr class="mb-3 mt-0 d-inline-block mx-auto" style="width: 60px; height: 2px; background-color: #fff;">
+        <p><a href="#!" class="text-white text-decoration-none">Facebook</a></p>
+        <p><a href="#!" class="text-white text-decoration-none">Instagram</a></p>
+        <p><a href="#!" class="text-white text-decoration-none">Twitter</a></p>
+      </div>
+
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <h6 class="text-uppercase fw-bold">Contacto</h6>
+        <hr class="mb-3 mt-0 d-inline-block mx-auto" style="width: 60px; height: 2px; background-color: #fff;">
+        <p><i class="bi bi-house-door"></i> San Salvador, El Salvador</p>
+        <p><i class="bi bi-envelope"></i> GamingStore@gmail.com</p>
+        <p><i class="bi bi-phone"></i> +503 1234 5678</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center p-3 bg-secondary">
+    © 2025 GamingStore S.A. de C.V. Todos los derechos reservados
+  </div>
+</footer>
 </body>
 </html>
