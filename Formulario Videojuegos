@@ -44,7 +44,7 @@
 
    <!-- Alerta -->
 <div id="alertaCompra" class="alert alert-success alert-dismissible fade show text-center" role="alert">
-  <strong>Gracias por preferirnos</strong> Completa este formulario para tu envío
+  <strong> Muchas Gracias por preferirnos</strong> Completa este formulario para tu envío
   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
 </div>
 
@@ -57,7 +57,7 @@
       <label for="nombre" class="form-label">Nombre completo</label>
       <input type="text" class="form-control" id="nombre" required>
       <div class="valid-feedback">¡Este campo es obligatorio!</div>
-      <div class="invalid-feedback">Ingresa tu nombre.</div>
+      <div class="invalid-feedback">Ingresa tu nombre</div>
     </div>
 
       <!-- Correo -->
@@ -65,7 +65,7 @@
         <label for="email" class="form-label">Correo electrónico</label>
         <input type="email" class="form-control" id="email" required>
        <div class="valid-feedback">¡Este campo es obligatorio!</div>
-      <div class="invalid-feedback">Ingresa un correo válido.</div>
+      <div class="invalid-feedback">Ingresa un correo válido</div>
     </div>
 
       <!-- Videojuego -->
@@ -94,7 +94,7 @@
           <option>Dragon Ball Sparking! ZERO</option>
           <option>Street Fighter 6</option>
           <option>Uncharted: Legacy of Thieves</option>
-          <option>Resident Evil 4 Remake</option>
+          <option>Resident Evil 4 Remake </option>
           <option>Schedule I</option>
           <option>MLB The Show 25</option>
           <option>Jujutsu Kaisen: Cursed Clash</option>
@@ -122,7 +122,7 @@
           <option>Astro Bot</option>
           <option>Revancha</option>
         </select>
-        <div class="invalid-feedback">Selecciona un videojuego.</div>
+        <div class="invalid-feedback">Selecciona un videojuego</div>
       </div>
 
       <!-- Método de pago -->
@@ -133,7 +133,7 @@
           <option value="tarjeta">Tarjeta de crédito</option>
           <option value="efectivo">Pago en efectivo</option>
         </select>
-        <div class="invalid-feedback">Selecciona un método de pago.</div>
+        <div class="invalid-feedback">Selecciona un método de pago</div>
       </div>
 
 
