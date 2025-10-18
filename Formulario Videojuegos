@@ -44,7 +44,7 @@
 
    <!-- Alerta -->
 <div id="alertaCompra" class="alert alert-success alert-dismissible fade show text-center" role="alert">
-  <strong>¡Compra realizada con éxito!</strong> Gracias por confiar en GamingStore 🎮
+  <strong>Gracias por preferirnos</strong> Completa este formulario para tu envío
   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
 </div>
 
